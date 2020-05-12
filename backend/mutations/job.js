@@ -17,7 +17,7 @@ const addJob = async (args) => {
         let savedJob = await company.save();
         
         if (savedJob) {
-            return { status: 200, message: "JOB_ADDED" };
+            return { status: 200, message: "JOB ADDED TO JOB LIST" };
         }
         else {
             return { status: 500, message: "INTERNAL_SERVER_ERROR" };
@@ -40,7 +40,7 @@ const applyJob = async (args) => {
         });
         let savedAppliedJob = await appliedJob.save();
         if (savedAppliedJob) {
-            return { status: 200, message: "JOB_ADDED" };
+            return { status: 200, message: "JOB_APPLIED" };
         }
         else {
             return { status: 500, message: "INTERNAL_SERVER_ERROR" };

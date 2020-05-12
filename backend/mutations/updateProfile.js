@@ -47,7 +47,7 @@ const updateStudentEducation = async (args) => {
     if (student) {
         student.education.unshift(newStudentEducation);
         student.save();
-        return { status: 200, message: "STUDENT_EDUCATION_ADDED" };
+        return { status: 200, message: "STUDENT_EDUCATION_UPDATED" };
     }
     else {
         return { status: 500, message: "INTERNAL_SERVER_ERROR" };

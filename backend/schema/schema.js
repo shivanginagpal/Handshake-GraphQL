@@ -340,8 +340,7 @@ const Mutation = new GraphQLObjectType({
             type: StatusType,
             args: {
                 student_id: { type: GraphQLString },
-                job_id: { type: GraphQLString },
-                student_name: { type: GraphQLString },
+                job_id: { type: GraphQLString }
             },
             resolve(parent, args) {
                 return applyJob(args);
