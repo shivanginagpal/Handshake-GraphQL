@@ -1,15 +1,15 @@
-## Handshake
+# Handshake
 Simulation of Handshake application using GraphQL
 # Steps to deploy the application
 
-# Front End
+## Front End
 1. Clone the repository's front end folder "frontend" into a sysytem having node.js installed.
 2. Open the terminal in the folder "frontend".
 3. Execute "npm install" to install all the dependencies.
 4. Update the webConfig.js file in grubhub-client/src folder with the backend server's IP address and port.
 5. Execute "npm start" to run the front end server.
 
-# Backend
+## Back End
 1. Clone the repository's backend end folder "backend" into a sysyteme having node.js installed.
 2. Open the terminal in the folder "backend".
 3. Execute "npm install" to install all the dependencies.
